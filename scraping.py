@@ -1,7 +1,5 @@
- Import Splinter, BeautifulSoup, and Pandas
-from flask import Flask, render_template, redirect, url_for
-from flask_pymongo import PyMongo
-import scraping
+
+# Import Splinter, BeautifulSoup, and Pandas
 from splinter import Browser
 from bs4 import BeautifulSoup as soup
 import pandas as pd
